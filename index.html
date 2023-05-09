@@ -1,0 +1,215 @@
+<style>
+    .box {
+        width: 300px;
+        height: 300px;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    
+    #grad1 {
+        height: 65px;
+        background-image: linear-gradient(to right, #EE82EE 10%, #3838ec);
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        rotate: 90deg;
+    }
+    
+    #grad3 {
+        height: 65px;
+        background-image: linear-gradient( to left, rgb(233, 171, 55), yellow);
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        rotate: 130deg;
+        opacity: 0.8;
+    }
+    
+    #grad2 {
+        height: 65px;
+        background-image: linear-gradient(to left, #f8adad, rgb(245, 29, 29));
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        rotate: 90deg;
+        opacity: 0.9;
+    }
+    
+    #grad4 {
+        height: 65px;
+        background-image: linear-gradient(to right, #3e15c4, brown);
+        border-top-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        rotate: 90deg;
+        opacity: 1;
+    }
+    
+    .grid-container {
+        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        box-sizing: border-box;
+        margin-left: 20%;
+        width: 30vw;
+        gap: 0;
+    }
+    
+    .box-or {
+        background-color: orangered;
+        height: 26vh;
+    }
+    
+    .box-wi {
+        background-color: #F5F5F5;
+    }
+    
+    .box-gr {
+        background-color: #778899;
+    }
+    
+    .box-bl {
+        background-color: #000080;
+    }
+    
+    .lf-wi {
+        background-color: #F5F5F5;
+        width: 98px;
+        height: 98px;
+        border-radius: 0 100px;
+        rotate: 91deg;
+        float: right;
+        margin-top: 47%;
+    }
+    
+    .lf-bl {
+        background-color: #000080;
+        width: 98px;
+        height: 98px;
+        border-radius: 0 100px;
+        rotate: 0deg;
+        float: left;
+        margin-top: 47%;
+    }
+    
+    .lf-or {
+        background-color: orangered;
+        width: 98px;
+        height: 98px;
+        border-radius: 0 100px;
+        rotate: 179.1deg;
+        float: right;
+        margin-top: 0%;
+    }
+    
+    .lf-gr {
+        background-color: #778899;
+        width: 98px;
+        height: 98px;
+        border-radius: 0 100px;
+        rotate: 90deg;
+        float: left;
+        margin-top: 0%;
+    }
+</style>
+</head>
+
+<body>
+    <h1>Task 1</h1>
+    <div class="box">
+
+        <div id="grad1">
+            <div id="grad2">
+                <div id="grad3">
+                    <div id="grad4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>Task 2</h1>
+    <div class="grid-container">
+        <div class="box-or">
+            <div class="lf-wi">
+
+            </div>
+
+        </div>
+        <div class="box-wi">
+            <div class="lf-bl">
+
+            </div>
+        </div>
+        <div class="box-gr">
+            <div class="lf-or">
+
+            </div>
+        </div>
+        <div class="box-bl">
+            <div class="lf-gr">
+
+            </div>
+        </div>
+    </div>
+    <h1>Task 3</h1>
+    <h3 align="center"><b>Risk Assessment for Q1 Opportunities</b></h3>
+    <table border="0px" class="center m-b-5 " align="center" style="height:30vh;width: 40vw;">
+        <tr align="center">
+            <td style="color:white; background-color: black;height: 4vh;"><b>Department</b></td>
+            <td style="color:white; background-color: black;height: 4vh;"><b>Budget</b></td>
+            <td style="color:white; background-color: black;height: 4vh;"><b>Chance of Success</b></td>
+        </tr>
+        <tr>
+            <td rowspan="6" align="center" style="background-color: rgb(120, 188, 233);"><b>Marketing</b></td>
+            <td style="background-color: rgb(120, 188, 233); height: 4vh;"><b>$10K</b></td>
+            <td style="background-color: rgb(120, 188, 233); height: 4vh;"><b>25%-50%</b></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(120, 188, 233);  height: 4vh;"><b>$20k</b></td>
+            <td style="background-color: rgb(120, 188, 233); height: 4vh;"><b>>25%</b></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(120, 188, 233);height: 4vh;"><b>$25K</b></td>
+            <td style="background-color: rgb(120, 188, 233);height: 4vh;"><b>>25%</b></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(120, 188, 233);height: 4vh;"><b>$50k</b></td>
+            <td style="background-color: rgb(120, 188, 233);height: 4vh;"><b>50%-100%</b></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(120, 188, 233);height: 4vh;"><b>$60k</b></td>
+            <td style="background-color: rgb(120, 188, 233);height: 4vh;"><b>>25%</b></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(120, 188, 233);height: 4vh;"><b>$70k</b></td>
+            <td style="background-color: rgb(120, 188, 233);height: 4vh;"><b>50%-100%</b></td>
+        </tr>
+        <tr>
+            <td rowspan="3" align="center" style="background-color: rgb(90, 241, 193);"><b>Sales</b></td>
+            <td style="background-color: rgb(90, 241, 193);height: 4vh;"><b>$20k</b></td>
+            <td style="background-color: rgb(90, 241, 193);height: 4vh;"><b>50%-100%</b></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(90, 241, 193);height: 4vh;"><b>$20k</b></td>
+            <td style="background-color: rgb(90, 241, 193);height: 4vh;"><b>>25%</b></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(90, 241, 193);height: 4vh;"><b>$50k</b></td>
+            <td style="background-color: rgb(90, 241, 193);height: 4vh;"><b>25%-50%</b></td>
+        </tr>
+        <tr>
+            <td rowspan="4" align="center" style="background-color: rgb(241, 166, 215);"><b>Product</b></td>
+            <td style="background-color: rgb(241, 166, 215);height: 4vh;"><b>$30K</b></td>
+            <td style="background-color: rgb(241, 166, 215);height: 4vh;"><b>>25%</b></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(241, 166, 215);height: 4vh;"><b>$40K</b></td>
+            <td style="background-color: rgb(241, 166, 215);height: 4vh;"><b>50%-100%</b></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(241, 166, 215);height: 4vh;"><b>$40K</b></td>
+            <td style="background-color: rgb(241, 166, 215);height: 4vh;"><b>25%-50%</b></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(241, 166, 215);height: 4vh;"><b>$70K</b></td>
+            <td style="background-color: rgb(241, 166, 215);height: 4vh;"><b>25%-50%</b></td>
+        </tr>
+    </table>
+</body>
